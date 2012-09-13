@@ -1,3 +1,3 @@
 #!/bin/sh
 
-git checkout README.md
+git checkout README.md >/dev/null 2>&1 || true
