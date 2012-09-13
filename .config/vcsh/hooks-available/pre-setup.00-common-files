@@ -1,0 +1,7 @@
+#!/bin/sh
+
+##
+## Removes files which can be in many repos.
+##
+
+rm -f "$GIT_WORK_TREE/README.md"
