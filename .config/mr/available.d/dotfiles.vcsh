@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/etc.git]
+checkout = vcsh clone cs278:dotfiles etc
