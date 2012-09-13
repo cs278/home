@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/home.git]
+checkout = vcsh clone cs278:home home
