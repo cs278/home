@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ "$VCSH_COMMAND" != "write_gitignore" ] && [ -n "$VCSH_REPO_NAME" ];
+then
+	vcsh write-gitignore "$VCSH_REPO_NAME"
+fi
