@@ -28,3 +28,11 @@ A select few highlights if you like, things that others might find useful.
   which identifies which network the machine I'm using is on, this allows things like bespoke SSH configuration
   depending if I'm inside or outside a firewall.
 * [ssh](https://github.com/cs278/dotfiles/blob/vcsh/.ssh) — Location aware SSH configuration, compiled by a vcsh hook.
+
+Bootstrapping
+-------------
+
+Configuring my home directory on a new host.
+
+1. bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git://github.com/cs278/home home
+2. mr update
