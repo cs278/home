@@ -1,4 +1,30 @@
-home
-====
+Chris' Home
+===========
 
-vcsh configuration
+My home directory is managed using a combination of git, [mr](http://joeyh.name/code/mr/)
+and [vcsh](https://github.com/RichiH/vcsh). vcsh manages checking out multiple git repositories
+into `$HOME` without making `$HOME` a git checkout itself, [rtfm](https://github.com/RichiH/vcsh#readme)
+for more informations.
+
+Repositories
+------------
+
+As a consequence of vcsh my home directory is assembled from a multiple git repositories, some private and
+others public.
+
+* [dotfiles](https://github.com/cs278/dotfiles) — Stores configuration for simple tools
+* [home](https://github.com/cs278/home) — Contains the necessary information to bootstrap vcsh
+* [bin](https://github.com/cs278/bin) — Little scripts and tools, my `~/bin` directory basically
+* [etc-desktop](https://github.com/cs278/etc-desktop) — Configuration for graphical tools
+
+Items of Interest
+-----------------
+
+A select few highlights if you like, things that others might find useful.
+
+* [gitconfig](https://github.com/cs278/dotfiles/blob/vcsh/.gitconfig) — Git aliases, shortcuts, and settings I've
+  collected over the past few years.
+* [network-location](https://github.com/cs278/bin/blob/master/bin/network-location) — Script which identifies
+  which identifies which network the machine I'm using is on, this allows things like bespoke SSH configuration
+  depending if I'm inside or outside a firewall.
+* [ssh](https://github.com/cs278/dotfiles/blob/vcsh/.ssh) — Location aware SSH configuration, compiled by a vcsh hook.
