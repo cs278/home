@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/php.git]
+checkout = vcsh clone cs278:etc-php php
