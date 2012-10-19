@@ -16,6 +16,7 @@ others public.
 * [home](https://github.com/cs278/home) — Contains the necessary information to bootstrap vcsh
 * [bin](https://github.com/cs278/bin) — Little scripts and tools, my `~/bin` directory basically
 * [etc-desktop](https://github.com/cs278/etc-desktop) — Configuration for graphical tools
+* [etc-php](https://github.com/cs278/etc-php) — Configuration for PHP and related things
 
 Items of Interest
 -----------------
