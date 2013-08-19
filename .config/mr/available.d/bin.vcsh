@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/bin.git]
-checkout = vcsh clone cs278:bin bin
+checkout = vcsh clone git@github.com:cs278/bin bin
