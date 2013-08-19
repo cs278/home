@@ -27,7 +27,7 @@ A select few highlights if you like, things that others might find useful.
 * [gitconfig](https://github.com/cs278/dotfiles/blob/vcsh/.gitconfig) — Git aliases, shortcuts, and settings I've
   collected over the past few years.
 * [network-location](https://github.com/cs278/bin/blob/master/bin/network-location) — Script which identifies
-  which identifies which network the machine I'm using is on, this allows things like bespoke SSH configuration
+  which network the machine I'm using is on, this allows things like bespoke SSH configuration
   depending if I'm inside or outside a firewall.
 * [ssh](https://github.com/cs278/dotfiles/blob/vcsh/.ssh) — Location aware SSH configuration, compiled by a vcsh hook.
 
