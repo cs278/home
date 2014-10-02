@@ -36,5 +36,5 @@ Bootstrapping
 
 Configuring my home directory on a new host.
 
-1. `bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git://github.com/cs278/home home`
-2. `mr update`
+1. `PATH="$HOME/bin:$PATH" bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git://github.com/cs278/home home`
+2. `PATH="$HOME/bin:$PATH" mr update`
