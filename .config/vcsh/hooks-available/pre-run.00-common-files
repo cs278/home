@@ -2,5 +2,5 @@
 
 if [ -d "$GIT_DIR" ];
 then
-	git checkout README.md >/dev/null 2>&1 || true
+	git checkout README.md >/dev/null 2>&1 || rm -f README.md >/dev/null 2>&1
 fi
