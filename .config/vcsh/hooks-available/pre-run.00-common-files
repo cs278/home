@@ -1,6 +1,8 @@
 #!/bin/sh
 
-if [ -d "$GIT_DIR" ];
+root="$(git rev-parse --show-toplevel)"
+
+if [ -d "$GIT_DIR" ] && [ -d "$root" ];
 then
-	git checkout README.md >/dev/null 2>&1 || rm -f README.md >/dev/null 2>&1
+	git checkout "$root/README.md" >/dev/null 2>&1 || rm -f "$root/README.md" >/dev/null 2>&1
 fi
