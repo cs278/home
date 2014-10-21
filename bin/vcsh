@@ -260,9 +260,11 @@ pull() {
 		printf '%s: ' "$VCSH_REPO_NAME"
 		GIT_DIR=$VCSH_REPO_D/$VCSH_REPO_NAME.git; export GIT_DIR
 		use
+		hook pre-pull-op
 		git pull
 		VCSH_COMMAND_RETURN_CODE=$?
 		echo
+		hook post-pull-op
 	done
 	hook post-pull
 }
