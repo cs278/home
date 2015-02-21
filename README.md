@@ -38,6 +38,6 @@ Configuring my home directory on a new host.
 
 ```bash
 wget -qO- "https://github.com/cs278/bin/raw/master/bin/ssh-mkkey" | bash
-PATH="$HOME/bin:$PATH" bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git://github.com/cs278/home home
+PATH="$HOME/bin:$PATH" bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git@github.com:cs278/home home
 PATH="$HOME/bin:$PATH" mr update
 ```
