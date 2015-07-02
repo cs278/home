@@ -38,6 +38,7 @@ Configuring my home directory on a new host.
 
 ```bash
 export PATH="$HOME/bin:$PATH"
+which sudo &>/dev/null || su -c "apt-get install -y sudo && adduser $USER sudo"
 which git &>/dev/null || sudo apt-get install -y git
 which mr &>/dev/null || sudo apt-get install -y myrepos
 wget -qO- "https://github.com/cs278/bin/raw/master/bin/ssh-mkkey" | bash
