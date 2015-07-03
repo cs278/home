@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/atom.git]
+checkout = vcsh clone cs278:etc-atom atom
