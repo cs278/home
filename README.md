@@ -15,6 +15,7 @@ others public.
 * [dotfiles](https://github.com/cs278/dotfiles) — Stores configuration for simple tools
 * [home](https://github.com/cs278/home) — Contains the necessary information to bootstrap vcsh
 * [bin](https://github.com/cs278/bin) — Little scripts and tools, my `~/bin` directory basically
+* [etc-puppet](https://github.com/cs278/etc-puppet) — Machine configuration
 * [etc-desktop](https://github.com/cs278/etc-desktop) — Configuration for graphical tools
 * [etc-php](https://github.com/cs278/etc-php) — Configuration for PHP and related things
 * [etc-atom](https://github.com/cs278/etc-atom) — Configuration for [Atom Text Editor](https://atom.io)
