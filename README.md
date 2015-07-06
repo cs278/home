@@ -1,7 +1,7 @@
 Chris' Home
 ===========
 
-My home directory is managed using a combination of git, [mr](http://joeyh.name/code/mr/)
+My home directory is managed using a combination of git, [mr](http://myrepos.branchable.com/)
 and [vcsh](https://github.com/RichiH/vcsh). vcsh manages checking out multiple git repositories
 into `$HOME` without making `$HOME` a git checkout itself, [rtfm](https://github.com/RichiH/vcsh#readme)
 for more informations.
