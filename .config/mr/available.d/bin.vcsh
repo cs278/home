@@ -1,2 +1,4 @@
 [$HOME/.config/vcsh/repo.d/bin.git]
+# bin contains helpers which might be used by other mrconfig files
+order = 0
 checkout = vcsh clone git@github.com:cs278/bin bin
