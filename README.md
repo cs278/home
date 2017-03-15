@@ -48,6 +48,8 @@ wget -qO- "https://github.com/cs278/bin/raw/master/bin/ssh-mkkey" | bash
 eval `ssh-agent`
 ssh-add ~/.ssh/${USER:-$LOGNAME}@`hostname --fqdn`
 ssh -T git@github.com
+# Stub in init hooks to trigger for the initial clone, these delete themselves to avoid any conflicts before checking out
+mkdir -p .config/vcsh/hooks-enabled && for hook in 00-sparse-checkout 10-pull-rebase; do wget -O .config/vcsh/hooks-enabled/post-init.$hook https://github.com/cs278/home/raw/master/.config/vcsh/hooks-available/post-init.$hook && chmod +x .config/vcsh/hooks-enabled/post-init.$hook && echo 'exec rm $0' >> .config/vcsh/hooks-enabled/post-init.$hook; done
 bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git@github.com:cs278/home home
 mr update
 ```
