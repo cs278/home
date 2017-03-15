@@ -7,9 +7,11 @@
 !/.config/mr/available.d/etc-php.vcsh
 !/.config/mr/available.d/etc-sublime.vcsh
 !/.config/mr/available.d/home.vcsh
+!/.config/mr/available.d/secrets.vcsh
 !/.config/mr/config.d/bin.vcsh
 !/.config/mr/config.d/dotfiles.vcsh
 !/.config/mr/config.d/home.vcsh
+!/.config/mr/config.d/secrets.vcsh
 !/.config/vcsh/hooks-available/post-command.90-gitignore
 !/.config/vcsh/hooks-available/post-init.00-sparse-checkout
 !/.config/vcsh/hooks-available/post-init.10-pull-rebase
