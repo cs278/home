@@ -11,11 +11,15 @@
 !/.config/mr/config.d/dotfiles.vcsh
 !/.config/mr/config.d/home.vcsh
 !/.config/vcsh/hooks-available/post-command.90-gitignore
+!/.config/vcsh/hooks-available/post-init.00-sparse-checkout
+!/.config/vcsh/hooks-available/post-init.10-pull-rebase
 !/.config/vcsh/hooks-available/pre-enter.00-common-files
 !/.config/vcsh/hooks-available/pre-pull-op.00-common-files
 !/.config/vcsh/hooks-available/pre-run.00-common-files
 !/.config/vcsh/hooks-available/pre-setup.00-common-files
 !/.config/vcsh/hooks-enabled/post-command.90-gitignore
+!/.config/vcsh/hooks-enabled/post-init.00-sparse-checkout
+!/.config/vcsh/hooks-enabled/post-init.10-pull-rebase
 !/.config/vcsh/hooks-enabled/pre-enter.00-common-files
 !/.config/vcsh/hooks-enabled/pre-pull-op.00-common-files
 !/.config/vcsh/hooks-enabled/pre-run.00-common-files
