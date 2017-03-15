@@ -6,6 +6,7 @@
 !/.config/mr/available.d
 !/.config/mr/available.d/bin.vcsh
 !/.config/mr/available.d/dotfiles.vcsh
+!/.config/mr/available.d/etc-atom.vcsh
 !/.config/mr/available.d/etc-desktop.vcsh
 !/.config/mr/available.d/etc-php.vcsh
 !/.config/mr/available.d/etc-sublime.vcsh
