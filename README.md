@@ -44,6 +44,10 @@ which sudo &>/dev/null || su -c "apt-get install -y sudo && adduser $USER sudo"
 which git &>/dev/null || sudo apt-get install -y git
 which mr &>/dev/null || sudo apt-get install -y myrepos
 wget -qO- "https://github.com/cs278/bin/raw/master/bin/ssh-mkkey" | bash
+# Ensure proper SSH agent is available
+eval `ssh-agent`
+ssh-add ~/.ssh/${USER:-$LOGNAME}@`hostname --fqdn`
+ssh -T git@github.com
 bash -c "$(wget -q https://github.com/cs278/home/raw/master/bin/vcsh -O-)" -- clone git@github.com:cs278/home home
 mr update
 ```
