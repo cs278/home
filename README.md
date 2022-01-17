@@ -20,6 +20,7 @@ others public.
 * [etc-php](https://github.com/cs278/etc-php) — Configuration for PHP and related things
 * [etc-atom](https://github.com/cs278/etc-atom) — Configuration for [Atom Text Editor](https://atom.io)
 * [etc-sublime](https://github.com/cs278/etc-sublime) — Configuration for [Sublime Text](http://www.sublimetext.com/) editor
+* [etc-vscode](https://github.com/cs278/etc-vscode) — Configuration for [VSCode](https://code.visualstudio.com/)
 
 Items of Interest
 -----------------
