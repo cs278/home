@@ -1,0 +1,3 @@
+[$HOME/.config/vcsh/repo.d/vscode.git]
+checkout = vcsh clone cs278:etc-vscode vscode
+fixups = $HOME/.config/Code/install-extensions.sh

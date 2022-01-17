@@ -6,6 +6,7 @@
 !/.config/mr/available.d/etc-desktop.vcsh
 !/.config/mr/available.d/etc-php.vcsh
 !/.config/mr/available.d/etc-sublime.vcsh
+!/.config/mr/available.d/etc-vscode.vcsh
 !/.config/mr/available.d/home.vcsh
 !/.config/mr/available.d/secrets.vcsh
 !/.config/mr/config.d/bin.vcsh
